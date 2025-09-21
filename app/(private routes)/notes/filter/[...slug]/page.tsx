@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `Notes - ${tag}`,
       description: `Showing notes with ${tag} filter.`,
-      url: `${process.env.NEXT_PUBLIC_URL}`,
+      url: `${process.env.NEXT_PUBLIC_API_URL}`,
       images: [
         {
           url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",
