@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
-import { NoteFormValues } from "@/types/note";
+import { type NoteFormValues } from "@/types/note";
 
 interface NoteDraftStore {
     draft: NoteFormValues,

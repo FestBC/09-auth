@@ -8,7 +8,7 @@ import Link from "next/link";
 
 import { useState } from "react";
 
-import { fetchNotes } from "@/lib/api";
+import { fetchNotes } from "@/lib/api/clientApi";
 
 import { type Note } from "@/types/note";
 
